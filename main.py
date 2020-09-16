@@ -11,7 +11,6 @@ phrase = slugify.slugify(phrase)
 phraseCode = []
 phrase = phrase.split()
 
-
 for mot in phrase:
     listeMot = []
     for lettre in mot:
